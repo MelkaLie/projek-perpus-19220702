@@ -21,7 +21,7 @@ CREATE TABLE tb_anggota(
 CREATE TABLE tb_penerbit(
     id INT UNSIGNED PRIMARY KEY NOT NULL AUTO_INCREMENT,
     penerbit VARCHAR(255) NOT NULL,
-    kota VARCHAR(30)
+    kota VARCHAR(30)                                                                                      
   )ENGINE=INNODB;
   
 CREATE TABLE tb_kategori( 
